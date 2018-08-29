@@ -1,4 +1,4 @@
-.parallax {
+.static-background {
   background-image: url("../res/images/background.jpg");
 
   position:fixed;
@@ -33,12 +33,12 @@
   margin-bottom: 3.5em;
   margin-top: 0px;
   padding: 3em;
-  font-family: arial;
   font-size: 14pt;
 }
 
 .content-block p {
   margin: 0px;
+  line-height: 1.5em;
 }
 
 .content-right {
@@ -47,26 +47,42 @@
 }
 
 .content-center {
-  background-color: blue;
-  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: center;
 }
 
 .image-right {
-  object-fit: contain;
+  flex: 1;
 }
 
 .left-of-image {
-  display: inline-block;
+  flex: 2;
 }
 
-.content-float {
-  background-color: red;
+.spin-image {
+  width: 100%;
+  vertical-align: top;
+}
+
+.text-box {
   text-align: justify;
   width: 40%;
   padding: 3em;
-  line-height: 1.5em;
+}
+
+#video-text {
+  background-color: rgba(255,255,255, 0.6);
+}
+
+#spin-text {
+  color: white;
+}
+
+#spin-box {
+  background-color: #212121;
+  
 }
 
 #logo-div {
@@ -87,4 +103,5 @@ body {
   padding: 0px;
   margin: 0px;
   width: 100%;
+  font-family: arial;
 }
