@@ -17,7 +17,7 @@
       <img id="logo-img" src="./res/images/logo.png" alt="Axjet logo">
     </div>
 
-    <div class="content-block content-right xvideo-container" id="animated-background">
+    <div class="content-block content-right video-container" id="animated-background">
       <!--
       <div class="video-background">
         <video autoplay>
@@ -68,6 +68,24 @@
       </div>
       <div class="image-right">
         <img class="spin-image" src="./res/images/speaker-spin.gif" alt="Axjet 360 view"/>
+      </div>
+    </div>
+    
+    <div class="content-block gallery-block">
+      <h1>GALLERY</h1>
+      <div class="gallery">
+        <div class="gallery-image-container">
+          <img class="gallery-image gallery-start" src="res/images/gallery1.jpg">
+          <img class="gallery-image" src="res/images/gallery2.jpg">
+          <img class="gallery-image" src="res/images/gallery3.jpg">
+        </div>
+        <div class="gallery-button-div">
+          <div class="gallery-left" onclick="nextGallery(-1)">&#10094;</div>
+          <span class="gallery-buttons selected-button" onclick="setGallery(1)"></span>
+          <span class="gallery-buttons" onclick="setGallery(2)"></span>
+          <span class="gallery-buttons" onclick="setGallery(3)"></span>
+          <div class="gallery-right" onclick="nextGallery(1)">&#10095;</div>
+        </div>
       </div>
     </div>
 
