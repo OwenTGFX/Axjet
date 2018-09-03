@@ -64,6 +64,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .gallery-image {
@@ -83,13 +84,41 @@
   margin-right: 1em;
 }
 
+.gallery-left-test {
+  cursor: pointer;
+  color: #505050;
+  width: 6em;
+  position: relative;
+}
+
+.gallery-right-test {
+  cursor: pointer;
+  color: #505050;
+  width: 6em;
+  position: relative;
+}
+
+.gallery-left-test span {
+  font-size: 2em;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.gallery-right-test span {
+  font-size: 2em;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 .gallery-buttons {
   display: inline-block;
   cursor: pointer;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  height: 0.5em;
-  width: 0.5em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  height: 0.3em;
+  width: 0.3em;
   padding: 0;
   border: 2px solid #505050;
   border-radius: 0.5em;
