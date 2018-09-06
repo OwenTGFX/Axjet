@@ -121,7 +121,7 @@
   width: 0.3em;
   padding: 0;
   border: 2px solid #505050;
-  border-radius: 0.5em;
+  border-radius: 50%;
   background-color: white;
 }
 
@@ -151,6 +151,76 @@
   text-align: justify;
   width: 40%;
   padding: 3em;
+  
+}
+
+.specifications {
+  background-image: url("../res/images/specifications-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  transform: translateZ(-1px) scale(2);
+  position: relative;
+  padding: 0px;
+  padding-bottom: 1em;
+}
+
+.specifications-header {
+  background-image: url("../res/images/specifications-header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.specifications-heading {
+  height: 14em;
+  line-height: 14em;
+  width: 50%;
+  background-color: rgba(255,255,255, 0.6);
+  font-size: xx-large;
+  padding-left: 0.5em;
+  margin-left: 50%;
+}
+
+.specifications-block {
+  background-color: rgba(85,85,85, 0.6);
+  width: 50%;
+  margin-bottom: 1em;
+  margin-top: 0px;
+  color: white;
+  font-size: x-large;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 2em;
+}
+
+.specifications-block h1 {
+  margin: 0px;
+  padding-bottom: 1em;
+}
+
+.specifications-block sub {
+  font-size: 85%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.table-left {
+  vertical-align: top;
+  font-weight: bold;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 14pt;
+}
+
+.table-right {
+  vertical-align: top;
+  text-align: justify;
+  font-size: 14pt;
 }
 
 #video-text {
@@ -185,4 +255,8 @@ body {
   margin: 0px;
   width: 100%;
   font-family: arial;
+}
+
+table {
+  border-spacing: 0.25em 0.5em;
 }
